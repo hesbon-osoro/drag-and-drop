@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+.box.active {
+  background-color: green;
+}
+
+.box.active:hover {
+  cursor: grab;
+}
